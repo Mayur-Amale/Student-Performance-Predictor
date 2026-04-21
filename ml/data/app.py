@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 import pickle
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Load model + metadata
 model_data = pickle.load(open("model.pkl", "rb"))
