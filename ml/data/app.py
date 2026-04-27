@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import pickle
 from flask_cors import CORS
-
+#  Applies default settings to your app, allowing all domains to access your API routes.
 app = Flask(__name__)
 CORS(app)
 
