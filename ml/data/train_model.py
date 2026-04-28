@@ -44,7 +44,7 @@ print(f"R2 Score : {r2_score(y_test, lr_preds):.4f}")
 print(f"MAE      : {mean_absolute_error(y_test, lr_preds):.2f}")
 
 # Choose best model (manual for now)
-model = 
+model = lr
 
 # Save model with metadata
 model_data = {
