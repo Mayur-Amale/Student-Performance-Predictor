@@ -1,8 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv("student_performance.csv")
+df = pd.read_csv("student_data.csv")
 
-# Rename Kaggle columns
 df = df.rename(columns={
     "StudyTimeWeekly": "study_hours",
     "Absences":        "absences",

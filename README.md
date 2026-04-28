@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student-Performance-Predictor (GradeX)
 
 Student Performance Predictor is a full-stack machine learning application that estimates student exam scores based on study habits and academic factors. It combines a regression model with a Flask API backend and a Node.js/Express frontend server to deliver real-time predictions, data tracking, and actionable insights for improving performance.
@@ -31,6 +32,11 @@ Student-Performance-Predictor/
 npm install
 npm run dev
 ```
+=======
+# 🎓 Student Performance Predictor
+
+An AI/ML-based web application that predicts student academic performance based on various input features such as study habits, demographics, and previous scores.
+>>>>>>> teammate/main
 
 ---
 
@@ -59,6 +65,24 @@ Student performance prediction is a common ML problem where models analyze facto
 * **Data Handling:** Pandas, NumPy
 * **Frontend:** HTML, CSS
 
+<<<<<<< HEAD
+=======
+---
+
+## 📂 Project Structure
+
+```
+Student-Performance-Predictor/
+│
+├── app.py                # Flask backend
+├── data.csv              # Dataset
+├── model.pkl             # Trained ML model (if used)
+├── templates/
+│   └── index.html        # Frontend UI
+├── static/               # CSS/JS files (optional)
+└── requirements.txt      # Dependencies
+```
+>>>>>>> teammate/main
 
 ---
 
@@ -126,6 +150,15 @@ These features are commonly used in student performance prediction models. ([Git
 
 ---
 
+<<<<<<< HEAD
+=======
+## 📸 Screenshots
+
+*Add screenshots of your UI here for better presentation*
+
+---
+
+>>>>>>> teammate/main
 ## 🔥 Future Improvements
 
 * Add more advanced models (XGBoost, Neural Networks)
@@ -134,3 +167,34 @@ These features are commonly used in student performance prediction models. ([Git
 * Add real-time analytics dashboard
 
 ---
+<<<<<<< HEAD
+=======
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is for educational purposes only.
+
+---
+
+## 👨‍💻 Author
+
+**Karan Bhilare**
+
+* GitHub: https://github.com/karanbhilare58
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+[1]: https://github.com/Priyanshu1303d/Student_Performance_Prediction?utm_source=chatgpt.com "Student Performance Prediction Project ..."
+[2]: https://github.com/skprasad117/Predicting-Student-Performance-Using-Machine-Learning?utm_source=chatgpt.com "Predicting-Student-Performance-Using-Machine-Learning"
+>>>>>>> teammate/main
